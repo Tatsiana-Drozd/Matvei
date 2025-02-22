@@ -5,8 +5,13 @@
         font-size: 35px;
         font-weight: 800;
         color: #b64d27;
+        transition: all 1.5s;
         &:not(:last-child) {
             margin-right: 25px;
+        }
+        &:hover {
+            font-size: 45px;
+            color: rgb(4, 39, 4);
         }
     }
 }
