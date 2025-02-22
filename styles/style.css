@@ -123,13 +123,23 @@
   background-color: white;
   border-radius: 50%;
   text-align: center;
+  transition: all 1.5s;
 }
 .social-link__item:not(:last-child) {
   margin-right: 25px;
+}
+.social-link__item:hover {
+  width: 65px;
+  height: 65px;
+  background-color: rgb(68, 65, 65);
 }
 .social-link__item i {
   display: inline-block;
   font-size: 35px;
   color: rgb(9, 9, 91);
   line-height: 50px;
+  transition-duration: 1.5s;
+}
+.social-link__item i:hover {
+  line-height: 65px;
 }/*# sourceMappingURL=style.css.map */
